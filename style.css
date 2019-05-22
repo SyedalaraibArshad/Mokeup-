@@ -325,3 +325,156 @@ footer {
 
 footer:hover i { color: red;
 }
+@media screen and (max-width:860px) {
+    .service-box {
+        flex-basis: 50%;
+    }
+    .techintro {
+        margin: 15px 0 25px;
+        padding: 16px;
+        font-size: 19px;
+    }
+    .intro {
+        padding-top: 20px;
+    }
+    #service-portfolio {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .intro h1 {
+        font-size: 3em;
+    }
+    .intro {
+        padding-top: 30px;
+    }
+    .techintro {
+        margin: 10px 0 24px;
+        padding: 15px;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 11px;
+    }
+    .box-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .service-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .portfolio-intro {
+        margin: 22px 0 12px;
+        padding: 13px;
+        font-size: 14px;
+        line-height: 12px;
+    }
+    .portfoliopics-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .portfoliopics-container img {
+        width: 231px;
+        height: 210px;
+    }
+    @media screen and (max-width:420px) {
+        header {
+            padding: 5px 0;
+        }
+        #logo img {
+            height: 30px;
+            padding-left: 30px;
+            margin-top: 0px;
+        }
+        #menu li {
+            padding: 0px;
+            padding-right: 28px;
+        }
+        .intro {
+            padding-top: 15px;
+        }
+        .techintro {
+            margin: 10px 0 24px;
+            font-size: 10px;
+            font-weight: bold;
+            line-height: 11px;
+        }
+        .box-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .service-container {
+            flex-direction: column;
+            align-items: center;
+        }
+        .portfolio-intro {
+            margin: 15px 0 1px;
+            padding: 11px;
+            font-size: 10px;
+            display: flex;
+            flex-direction: column;
+            line-height: 9px;
+        }
+        .portfolios {
+            flex-direction: column;
+            align-items: center;
+        }
+        .portfoliopics-container {
+            flex-direction: column;
+        }
+        .portfoliopics-container img {
+            width: 309px;
+            height: 220px;
+            border-radius: 6px;
+        }
+    }
+    @media screen and (max-width: 370px) {
+        body {
+            display: flex;
+            flex-direction: column;
+            overflow-y: scroll;
+        }
+        header a {
+            font-size: 14px;
+        }
+        #menu li {
+            padding-right: 11px;
+            font-size: 12px;
+        }
+        .intro h1 {
+            font-size: 2em;
+        }
+        #logo img {
+            height: 28px;
+            padding-left: 13px;
+        }
+        .techintro {
+            margin: 10px 0 24px;
+            padding: 8px;
+            font-size: 10px;
+            font-weight: bold;
+            line-height: 10px;
+        }
+        .join {
+            padding: 1em 2em;
+        }
+        .portfoliopics-container img {
+            width: 215px;
+            border-radius: 6px;
+        }
+        .socials span {
+            margin: 0px 7px 0px 9px;
+            font-size: 20px;
+        }
+        .contact-desc h2 {
+            margin: 0px 0px 5px;
+            padding: 20px;
+        }
+        footer {
+            font-size: 10px;
+            font-family: serif;
+        }
+    
